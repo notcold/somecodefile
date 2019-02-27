@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body id="area">
+
+</body>
+<script src="http://staticnew.superboss.cc/lib/jquery.min.js"></script>
+<script>
+$(function() {
+    var $obj = $('<object type="image/svg+xml" data="test.svg" id="obj"/>');
+    // var $obj = $('<iframe src="test.svg" id="obj"/>');
+
+    $("#area").append($obj);
+
+    setTimeout(function() {
+        console.log(document.getElementById("obj").contentDocument.documentElement);
+    }, 300);
+});
+</script>
+
+</html>

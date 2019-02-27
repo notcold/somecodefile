@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<response>
+  <result>true</result>
+  <content>
+    <img src="final_img/2018-07-02/2963914609/Mruemy.jpg" border="0" borderColor="12199717" bcx="0" bcy="87" w="750" h="303">
+      <e type="img" d="6" x="724.5" y="10.75" width="703" height="293" ox="724.5" oy="10.75" a="1" c="0" cx="NaN" cy="87" hue="0" r="180.00">
+        <data url="user_materail/2018-06-21/350475995/aUJjY3.png" s="{s}"/>
+      </e>
+      <e type="img" d="5" x="0" y="0" width="750" height="303" ox="0" oy="0" a="1" c="0" cx="NaN" cy="87" hue="0" r="0.00">
+        <data url="user_materail/2018-06-21/350475995/EJ3iEf.png" s="{s}"/>
+      </e>
+      <e type="img" d="4" x="-32" y="86.5" width="792" height="431" ox="-32" oy="86.5" a="1" c="0" cx="NaN" cy="87" hue="0" r="-10.05">
+        <data url="user_materail/2018-06-21/350475995/eqIN7v.png" s="{s}"/>
+      </e>
+      <e type="text" d="3" x="267" y="112" width="231" height="62" ox="267" oy="112" a="1" c="3603924" cx="0" cy="87" hue="NaN" r="0.00">
+        <data url="swf/2018-06-21/350475995/ryAFfe.swf" text="上新啦！" font="hklijinhei" s="{s}"/>
+      </e>
+      <e type="text" d="2" x="267.75" y="106.5" width="228" height="62" ox="267.75" oy="106.5" a="1" c="0" cx="NaN" cy="87" hue="NaN" r="0.00">
+        <data url="swf/2018-06-21/350475995/YV3IZf.swf" text="上新啦！" font="hklijinhei" s="{s}"/>
+      </e>
+      <e type="text" d="1" x="287.25" y="223.75" width="179" height="70" ox="287.25" oy="223.75" a="1" c="0" cx="NaN" cy="87" hue="NaN" r="-10.56">
+        <data url="swf/2018-06-21/350475995/IZbmAj.swf" text="满返再包邮" font="hei" s="{s}"/>
+      </e>
+      <e type="hotmap" d="0" x="278.25" y="229" width="201" height="75" ox="278.25" oy="229" a="0.2" c="0" cx="NaN" cy="87" hue="NaN" hr="https://www.baidu.com" r="-10.03">
+        <data url="system_material/4.swf" s="{s}"/>
+      </e>
+    </img>
+  </content>
+</response>
+

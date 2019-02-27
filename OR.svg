@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<response>
+  <result>true</result>
+  <content>
+    <img src="final_img/2018-06-21/350475995/q6rmEn.jpg" border="0" borderColor="12199717" bcx="0" bcy="87" w="750" h="303">
+      <e type="img" d="5" x="0" y="0.7575757575757576" width="750" height="303.030303030303" ox="0" oy="0.7575757575757576" a="1" c="0" cx="NaN" cy="87" hue="0" r="0.00">
+        <data url="user_materail/2018-06-21/350475995/aUJjY3.png" s="{s}"/>
+      </e>
+      <e type="img" d="4" x="0" y="0" width="750" height="303.030303030303" ox="0" oy="0" a="1" c="0" cx="NaN" cy="87" hue="0" r="0.00">
+        <data url="user_materail/2018-06-21/350475995/EJ3iEf.png" s="{s}"/>
+      </e>
+      <e type="img" d="3" x="0" y="0" width="750" height="303.030303030303" ox="0" oy="0" a="1" c="0" cx="NaN" cy="87" hue="0" r="0.00">
+        <data url="user_materail/2018-06-21/350475995/eqIN7v.png" s="{s}"/>
+      </e>
+      <e type="text" d="2" x="267" y="112" width="231" height="62" ox="267" oy="112" a="1" c="3603924" cx="0" cy="87" hue="NaN" r="0.00">
+        <data url="swf/2018-06-21/350475995/ryAFfe.swf" text="上新啦！" font="hklijinhei" s="{s}"/>
+      </e>
+      <e type="text" d="1" x="267.75" y="107.5" width="228" height="62" ox="267.75" oy="107.5" a="1" c="0" cx="NaN" cy="87" hue="NaN" r="0.00">
+        <data url="swf/2018-06-21/350475995/YV3IZf.swf" text="上新啦！" font="hklijinhei" s="{s}"/>
+      </e>
+      <e type="text" d="0" x="290.530303030303" y="191.2878787878788" width="175" height="37.878787878787875" ox="290.530303030303" oy="191.2878787878788" a="1" c="0" cx="NaN" cy="87" hue="NaN" r="0.00">
+        <data url="swf/2018-06-21/350475995/IZbmAj.swf" text="满返再包邮" font="hei" s="{s}"/>
+      </e>
+    </img>
+  </content>
+</response>

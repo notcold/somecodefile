@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<canvas id="myCanvas"></canvas>
+
+</body>
+<script type="text/javascript">
+
+var canvas=document.getElementById('myCanvas');
+var ctx=canvas.getContext('2d');
+ctx.translate(75,75);
+
+  for (var i=1;i<6;i++){ // Loop through rings (from inside to out)
+    ctx.save();
+    ctx.fillStyle = 'rgb('+(33*i)+','+(255-33*i)+',255)';
+
+    for (var j=0;j<i*6;j++){ // draw individual dots
+      ctx.rotate(Math.PI*2/(i*6));
+      ctx.beginPath();
+      ctx.arc(0,i*12.5,5,0,Math.PI*2,true);
+      ctx.fill();
+    }
+
+    ctx.restore();
+  }
+
+</script>
+</html>

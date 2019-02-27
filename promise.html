@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+
+
+class PromisePoly{
+    constructor(executor){
+        try {
+            executor(this.resolve.bind(this), this.reject.bind(this))
+          } catch(e) {
+            this.reject(e)
+          }
+    }
+    status = 'pending'
+    resolve (data){
+        if(this.status === 'pending'){
+            console.log('resolved')
+            this.data = data;
+            this.status = 'resolved'
+        }
+    }
+
+    reject (error){
+        if(this.status === 'pending'){
+            console.log('resolved')
+            this.data = error;
+            this.status = 'rejected'
+        }
+    }
+}
+PromisePoly.prototype.then = function (resolved,rejected){
+    console.log('then')
+       //返回新的Promise对象
+      if (this.status === 'resolved') {
+        return  new PromisePoly((resolve, reject)=> {
+            try {
+                var result = resolved(this.data)
+                if (result instanceof PromisePoly) { // 如果resolved的返回值是一个Promise对象，直接取它的结果做为新promise的结果
+                    result.then(resolve, reject)
+                }else{
+                    resolve(result) // 否则，以它的返回值做为新promise的结果
+                }
+            } catch (e) {
+                reject(e) // 如果出错，以捕获到的错误做为新promise的结果
+            }
+        })
+      }
+
+      if (this.status === 'rejected') {
+        return  new PromisePoly((resolve, reject)=> {
+                try {
+                    var result = rejected(this.data)
+                    if (result instanceof PromisePoly) { // 如果rejected的返回值是一个Promise对象，直接取它的结果做为新promise的结果
+                        result.then(resolve, reject)
+                    }
+                } catch (e) {
+                    reject(e) // 如果出错，以捕获到的错误做为新promise的结果
+                }
+        })
+      }
+}
+new PromisePoly((resolve,rejected)=>{resolve(12)}).then((data)=>{console.log(data);})
+
+</script>
+</html>
