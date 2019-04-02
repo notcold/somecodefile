@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .column{
+
+        }
+        .container {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 40px 300px 50px;
+  grid-template-areas: "header header header"
+                       "left main right"
+                       "footer footer footer";
+}
+
+.container .header {
+  grid-area: header;
+}
+
+.container .footer {
+  grid-area: footer;
+}
+
+.container .left {
+  grid-area: left;
+}
+
+.container .right {
+  grid-area: right;
+}
+
+.container .main {
+  grid-area: main;
+}
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="column">123</div>
+        <div class="column">12</div>
+        <div class="column">123</div>
+                <div class="column">1233</div>
+
+    </div>
+<div class="container">
+  <div class="header">header</div>
+  <div class="left">left</div>
+  <div class="main">main</div>
+  <div class="right">right</div>
+  <div class="footer">footer</div>
+</div>
+
+</body>
+</html>
